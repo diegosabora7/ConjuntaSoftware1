@@ -67,4 +67,13 @@ public class Operaciones {
     public int division(int a, int b){
         return a/b;
     }
+    /**
+     * Metodo para la potencia.
+     * @param a, base de la potencia.
+     * @param b, exponente de la potencia.
+     * @return resultado de la operacion.
+     */
+    public int pentecia(int a, int b){
+        return (int) Math.pow((double) a, (double) b);
+    }
 }
