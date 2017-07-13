@@ -31,12 +31,13 @@ import java.util.Scanner;
  */
 public class Started {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     private static Operaciones op = new Operaciones();
     private static OperacionesFloat opf = new OperacionesFloat();
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         System.out.println("MENU PRINCIPAL");
         Scanner sc = new Scanner(System.in);
