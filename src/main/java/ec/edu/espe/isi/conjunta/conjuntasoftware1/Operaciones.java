@@ -73,7 +73,7 @@ public class Operaciones {
      * @param b, exponente de la potencia.
      * @return resultado de la operacion.
      */
-    public int pentecia(int a, int b){
+    public int potencia(int a, int b){
         return (int) Math.pow((double) a, (double) b);
     }
     /**

@@ -42,18 +42,19 @@ public class Started {
         int a = 0;
         int b = 0;
         try {
-            System.out.print("Ingrese el primer numero: ");
-            a = sc.nextInt();
-            System.out.print("Ingrese el segundo numero: ");
-            b = sc.nextInt();
-        } catch (Exception ex) {
-            System.out.println("Ingrese solo numeros");
-        }
-        menu(a, b);
+                System.out.print("Ingrese el primer numero: ");
+                a = sc.nextInt();
+                System.out.print("Ingrese el segundo numero: ");
+                b = sc.nextInt();
+            } catch (Exception ex) {
+                System.out.println("Ingrese solo numeros");
+            }
+            menu(a, b);
     }
 
     /**
      *
+     * Metodo para la muestra del menu con numeros enteros.
      * @param a Numero 1.
      * @param b Numero 2.
      */
@@ -63,25 +64,32 @@ public class Started {
             Scanner sc = new Scanner(System.in);
             try {
                 System.out.println("Ingrese la operacion deseada: ");
-                System.out.println("1. Suma\n2. Resta\n3. Multiplicacion\n4. Divicion\n5. Salir");
+                System.out.println("1. Suma\n2. Resta\n3. Multiplicacion");
+                System.out.println("\n4. Divicion\n5. Potencia\n6. Modulo\n7. Salir");
                 aux = sc.nextInt();
             } catch (Exception ex) {
                 System.out.println("Ingrese solo numeros");
             }
             switch (aux) {
                 case 1:
-                    System.out.println("Resultado: "+op.suma(a,b));
+                    System.out.println("Resultado: " + op.suma(a, b));
                     break;
                 case 2:
-                    System.out.println("Resultado: "+op.resta(a,b));
+                    System.out.println("Resultado: " + op.resta(a, b));
                     break;
                 case 3:
-                    System.out.println("Resultado: "+op.multiplicacion(a,b));
+                    System.out.println("Resultado: " + op.multiplicacion(a, b));
                     break;
                 case 4:
-                    System.out.println("Resultado: "+op.division(a,b));
+                    System.out.println("Resultado: " + op.division(a, b));
                     break;
                 case 5:
+                    System.out.println("Resultado: " + op.potencia(a, b));
+                    break;
+                case 6:
+                    System.out.println("Resultado: " + op.modulo(a, b));
+                    break;
+                case 7:
                     System.out.println("Fin del Programa");
                     break;
                 default:
@@ -89,5 +97,4 @@ public class Started {
             }
         } while (aux == 5);
     }
-
 }
