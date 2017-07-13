@@ -108,6 +108,12 @@ public class Started {
                     System.out.println("Resultado: " + op.division(a, b));
                     break;
                 case 5:
+                    System.out.println("Resultado: " + op.potencia(a, b));
+                    break;
+                case 6:
+                    System.out.println("Resultado: " + op.modulo(a, b));
+                    break;
+                case 7:
                     System.out.println("Fin del Programa");
                     break;
                 default:
@@ -146,12 +152,6 @@ public class Started {
                     System.out.println("Resultado: " + opf.division(a, b));
                     break;
                 case 5:
-                    System.out.println("Resultado: " + op.potencia(a, b));
-                    break;
-                case 6:
-                    System.out.println("Resultado: " + op.modulo(a, b));
-                    break;
-                case 7:
                     System.out.println("Fin del Programa");
                     break;
                 default:
