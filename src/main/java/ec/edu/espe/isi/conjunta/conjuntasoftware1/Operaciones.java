@@ -60,8 +60,8 @@ public class Operaciones {
     }
     /**
      * Metodo para la hacer una division entre dos numeros.
-     * @param a, dividendo de la operacion.
-     * @param b, divisor de la opracion.
+     * @param a dividendo de la operacion.
+     * @param b divisor de la opracion.
      * @return resultado de la operacion.
      */
     public int division(int a, int b){
@@ -69,8 +69,8 @@ public class Operaciones {
     }
     /**
      * Metodo para la potencia.
-     * @param a, base de la potencia.
-     * @param b, exponente de la potencia.
+     * @param a base de la potencia.
+     * @param b exponente de la potencia.
      * @return resultado de la operacion.
      */
     public int potencia(int a, int b){
@@ -78,8 +78,8 @@ public class Operaciones {
     }
     /**
      * Metodo para realizar la operacion modulo entre dos numeros enteros.
-     * @param a, dividendo de la operacion.
-     * @param b, divisor de la opracion.
+     * @param a dividendo de la operacion.
+     * @param b divisor de la opracion.
      * @return resultado de la operacion.
      */
     public int modulo(int a, int b){
