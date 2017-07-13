@@ -76,4 +76,13 @@ public class Operaciones {
     public int pentecia(int a, int b){
         return (int) Math.pow((double) a, (double) b);
     }
+    /**
+     * Metodo para realizar la operacion modulo entre dos numeros enteros.
+     * @param a, dividendo de la operacion.
+     * @param b, divisor de la opracion.
+     * @return resultado de la operacion.
+     */
+    public int modulo(int a, int b){
+        return a%b;
+    }
 }
