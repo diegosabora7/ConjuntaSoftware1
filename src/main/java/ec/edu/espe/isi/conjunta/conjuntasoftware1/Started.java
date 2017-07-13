@@ -78,7 +78,7 @@ public class Started {
     }
 
     /**
-     *
+     * Metodo para la muestra del menu con numeros enteros.
      * @param a Numero 1.
      * @param b Numero 2.
      */
@@ -116,7 +116,7 @@ public class Started {
     }
 
     /**
-     *
+     * Metodo para la muestra del menu con numeros flotantes.
      * @param a
      * @param b
      */
