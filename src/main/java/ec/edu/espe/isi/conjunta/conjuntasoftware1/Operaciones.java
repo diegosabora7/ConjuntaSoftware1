@@ -46,6 +46,9 @@ public class Operaciones {
      * @param b, operando b de la resta.
      * @return resultado de la operacion.
      */
+    public int resta(int a, int b){
+        return a-b;
+    }
     /**
      * Metodo para la hacer una multiplicacion entre dos numeros.
      * @param a, multiplicando de la operacion.
